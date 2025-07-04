@@ -42,10 +42,10 @@ const Header = ({
       </div>
 
       <div className="header-controls">
-        <button onClick={toggleDarkMode}>
+        <button onClick={toggleDarkMode} className="icon-container">
           {darkMode ? <FaSun className="icon" /> : <FaMoon className="icon" />}
         </button>
-        <button onClick={toggleFullScreen}>
+        <button onClick={toggleFullScreen} className="icon-container">
           <FaExpand className="icon" />
         </button>
       </div>
